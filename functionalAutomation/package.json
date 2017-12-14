@@ -1,0 +1,17 @@
+{
+  "name": "videoautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test --reporter mochawesome --reporter-options autoOpen=true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^3.6.0"
+  },
+  "devDependencies": {
+    "mochawesome": "^3.0.0"
+  }
+}
