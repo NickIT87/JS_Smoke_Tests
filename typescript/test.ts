@@ -1,3 +1,5 @@
-const msg: string = 'hello world'
+const msg: string = 'hello worlda'
 
-console.log(msg)
+let a: number = 10.1
+
+console.log(msg, a)

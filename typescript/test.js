@@ -1,2 +1,3 @@
-var msg = 'hello world';
-console.log(msg);
+var msg = 'hello worlda';
+var a = 10.1;
+console.log(msg, a);
