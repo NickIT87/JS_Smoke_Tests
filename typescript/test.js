@@ -1,3 +1,3 @@
-var msg = 'hello worlda';
-var a = 10.1;
+var msg = 'hello worldos';
+var a = 10.2354;
 console.log(msg, a);
