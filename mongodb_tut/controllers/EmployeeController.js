@@ -83,7 +83,7 @@ const destroy = (req, res, next) => {
     let employeeID = req.body.employeeID
     Employee.findByIdAndRemove(employeeID)
     .then(() => {
-        req.json({
+        res.json({
             message: 'Employee deleted Successfully!'
         })
     })
