@@ -3,8 +3,9 @@ const router    = express.Router()
 
 const EmployeeController    = require('../controllers/EmployeeController')
 const upload                = require('../middleware/upload') 
+const authenticate          = require('../middleware/authenticate')
 
-router.get('/', EmployeeController.index)
+router.get('/', authenticate, EmployeeController.index)
 router.post('/show', EmployeeController.show)
 //router.post('/store', upload.single('avatar'), EmployeeController.store)
 router.post('/store', upload.array('avatar[]'), EmployeeController.store)
