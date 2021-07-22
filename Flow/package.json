@@ -8,7 +8,7 @@
 		"mqtt": "^4.2.1",
 		"node-schedule": "^1.3.2",
 		"total.js": "latest",
-		"xlsx": "^0.16.7"
+		"xlsx": "^0.17.0"
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
